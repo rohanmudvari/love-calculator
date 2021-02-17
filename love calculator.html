@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		  body{
+	background-image: url('love-background.jpg');
+              }
+          
+		table{
+			position: relative;
+			top: 150px;
+			left:550px;
+			border-radius: 25px;
+			border:5px solid #32a852;
+		   }
+		   input{
+		   	width: 150px;
+		   	height: 30px;
+		   	border-radius: 25px;
+		   }
+		   td,input,button,#title,#display-love{
+		   	font-family: sans-serif;
+		   	font-weight: 700;
+		   	font-size: 20px;
+		   }
+
+		   #title{
+            position: relative;
+			top: 130px;
+			left:30px;
+			text-decoration: underline;
+		   }
+		   button{
+		   	border-radius: 25px;
+            padding: 10px;
+		   }
+		   button:hover{
+		   	cursor: pointer;
+		   	background-color:pink;
+		   }
+		   #display-love{
+            position: relative;
+			top: 200px;
+			left:600px;
+		   }
+
+	</style>
+</head>
+<body>
+	<center id="title">Rohan's Love Calculator</center>
+<table cellpadding="30">
+	<tr>
+	<td>Enter Your Name:</td>
+	<td><input type="text" id="name1"></td>
+</tr>
+<tr>
+	<td>Enter Their Name:</td>
+	<td><input type="text" id="name2"></td>
+</tr>
+<tr>
+	<td colspan="2"><center><button onclick="calculate();">Calculate</button></center></td>
+</tr>
+</table>
+<p id="display-love">
+</p>
+<script type="text/javascript">
+	function calculate(){
+		var name1=document.getElementById('name1').value;
+		var name2=document.getElementById('name2').value;
+        var nam1=name1.toLowerCase();
+        var nam2=name2.toLowerCase();
+        //a ko laagi
+     if (nam1.startsWith("a")&&nam2.startsWith("a")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if ((nam1.startsWith("a")&&nam2.startsWith("b"))||(nam1.startsWith("b")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("c"))||(nam1.startsWith("c")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("d"))||(nam1.startsWith("d")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"10%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("e"))||(nam1.startsWith("e")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"82%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("f"))||(nam1.startsWith("f")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"67%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("g"))||(nam1.startsWith("g")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"53%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("h"))||(nam1.startsWith("h")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89.5%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"36%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"68%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"12%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"27%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"74%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"5%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"98%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"83%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"64%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"34%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"36%";
+		}
+	else if((nam1.startsWith("a")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("a"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	//b ko laagi
+     else if (nam1.startsWith("b")&&nam2.startsWith("b")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"88%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("c"))||(nam1.startsWith("c")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"92%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("d"))||(nam1.startsWith("d")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("e"))||(nam1.startsWith("e")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"92%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("f"))||(nam1.startsWith("f")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("g"))||(nam1.startsWith("g")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("h"))||(nam1.startsWith("h")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9.5%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"16%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"23%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"98%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"26%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"92%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"56%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"92%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85.6%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"6%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"4%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"2%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("b"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("b")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("z"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	//c ko laagi
+     else if (nam1.startsWith("c")&&nam2.startsWith("c")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"98%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("d"))||(nam1.startsWith("d")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("e"))||(nam1.startsWith("e")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("f"))||(nam1.startsWith("f")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"80%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("g"))||(nam1.startsWith("g")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"8%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("h"))||(nam1.startsWith("h")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"61%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"45%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"67%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"72%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"97%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"6%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"98%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99.9%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"1%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"68%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"77%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"35%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"70%";
+		}
+	else if((nam1.startsWith("c")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("c"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	//d ko laagi
+     else if (nam1.startsWith("d")&&nam2.startsWith("d")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("e"))||(nam1.startsWith("e")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("f"))||(nam1.startsWith("f")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"70%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("g"))||(nam1.startsWith("g")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"16%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("h"))||(nam1.startsWith("h")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"80%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"21%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("d")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("d"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//e ko laagi
+     else if (nam1.startsWith("e")&&nam2.startsWith("e")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("f"))||(nam1.startsWith("f")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"70%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("g"))||(nam1.startsWith("g")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"16%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("h"))||(nam1.startsWith("h")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"80%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"21%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("e")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("e"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//f ko laagi
+     else if (nam1.startsWith("f")&&nam2.startsWith("f")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("g"))||(nam1.startsWith("g")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"16%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("h"))||(nam1.startsWith("h")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"80%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"21%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("f")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("f"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//g ko laagi
+     else if (nam1.startsWith("g")&&nam2.startsWith("g")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	
+	else if((nam1.startsWith("g")&&nam2.startsWith("h"))||(nam1.startsWith("h")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"80%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"21%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("g")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("g"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//h ko laagi
+     else if (nam1.startsWith("h")&&nam2.startsWith("h")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+
+	else if((nam1.startsWith("h")&&nam2.startsWith("i"))||(nam1.startsWith("i")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"21%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("h")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("h"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//i ko laagi
+     else if (nam1.startsWith("i")&&nam2.startsWith("i")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+
+	else if((nam1.startsWith("i")&&nam2.startsWith("j"))||(nam1.startsWith("j")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("i")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("i"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//j ko laagi
+     else if (nam1.startsWith("j")&&nam2.startsWith("j")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+
+	else if((nam1.startsWith("j")&&nam2.startsWith("k"))||(nam1.startsWith("k")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("j")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("j"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//g ko laagi
+     else if (nam1.startsWith("k")&&nam2.startsWith("k")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	
+	else if((nam1.startsWith("k")&&nam2.startsWith("l"))||(nam1.startsWith("l")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"94%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("k")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("k"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//l ko laagi
+     else if (nam1.startsWith("l")&&nam2.startsWith("l")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	
+
+	else if((nam1.startsWith("l")&&nam2.startsWith("m"))||(nam1.startsWith("m")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("l")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("l"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+//m ko laagi
+     else if (nam1.startsWith("m")&&nam2.startsWith("m")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	
+	else if((nam1.startsWith("m")&&nam2.startsWith("n"))||(nam1.startsWith("n")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"7%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("m")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("m"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//n ko laagi
+     else if (nam1.startsWith("n")&&nam2.startsWith("n")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	
+	else if((nam1.startsWith("n")&&nam2.startsWith("o"))||(nam1.startsWith("o")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"68%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"67%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"8%";
+		}
+	else if((nam1.startsWith("n")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("n"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"63%";
+		}
+	//l ko laagi
+     else if (nam1.startsWith("o")&&nam2.startsWith("o")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"90%";
+		}
+
+	else if((nam1.startsWith("o")&&nam2.startsWith("p"))||(nam1.startsWith("p")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"75%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"58%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"78%";
+		}
+	else if((nam1.startsWith("o")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("o"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"93%";
+		}
+	//p ko laagi
+     else if (nam1.startsWith("p")&&nam2.startsWith("p")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	
+	else if((nam1.startsWith("p")&&nam2.startsWith("q"))||(nam1.startsWith("q")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"84%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"91%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"63%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"5%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"35%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"18%";
+		}
+	else if((nam1.startsWith("p")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("p"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"33%";
+		}
+//q ko laagi
+     else if (nam1.startsWith("q")&&nam2.startsWith("q")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"76%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("r"))||(nam1.startsWith("r")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"91%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"63%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"5%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"35%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"85%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"87%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"18%";
+		}
+	else if((nam1.startsWith("q")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("q"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"33%";
+		}
+	//r ko laagi
+     else if (nam1.startsWith("r")&&nam2.startsWith("r")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"65%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("s"))||(nam1.startsWith("s")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"96%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"55%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"25%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"97%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"88%";
+		}
+	else if((nam1.startsWith("r")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("r"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"2%";
+		}
+	//s ko laagi
+     else if (nam1.startsWith("s")&&nam2.startsWith("s")){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"55%";
+		}
+	else if((nam1.startsWith("s")&&nam2.startsWith("t"))||(nam1.startsWith("t")&&nam2.startsWith("s"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"95%";
+		}
+	else if((nam1.startsWith("s")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("s"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"68%";
+		}
+	else if((nam1.startsWith("s")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("s"))){
+	 document.getElementById('display-love').innerHTML="Opps!! "+name2+" loves you "+"20%";
+		}
+	else if((nam1.startsWith("s")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("s"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"89%";
+		}
+	else if((nam1.startsWith("s")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("s"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"77%";
+		}
+	else if((nam1.startsWith("s")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("s"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"69%";
+		}
+	else if((nam1.startsWith("s")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("s"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	//t ko laagi
+     else if (nam1.startsWith("t")&&nam2.startsWith("t")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	else if((nam1.startsWith("t")&&nam2.startsWith("u"))||(nam1.startsWith("u")&&nam2.startsWith("t"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"98%";
+		}
+	else if((nam1.startsWith("t")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("t"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"70%";
+		}
+	else if((nam1.startsWith("t")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("t"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("t")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("t"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"97%";
+		}
+	else if((nam1.startsWith("t")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("t"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"77%";
+		}
+	else if((nam1.startsWith("t")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("t"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"83%";
+		}
+	//u ko laagi
+     else if (nam1.startsWith("u")&&nam2.startsWith("u")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	else if((nam1.startsWith("u")&&nam2.startsWith("v"))||(nam1.startsWith("v")&&nam2.startsWith("u"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"70%";
+		}
+	else if((nam1.startsWith("u")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("u"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("u")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("u"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"97%";
+		}
+	else if((nam1.startsWith("u")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("u"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"77%";
+		}
+	else if((nam1.startsWith("u")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("u"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"83%";
+		}
+	//v ko laagi
+     else if (nam1.startsWith("v")&&nam2.startsWith("v")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	
+	else if((nam1.startsWith("v")&&nam2.startsWith("w"))||(nam1.startsWith("w")&&nam2.startsWith("v"))){
+	 document.getElementById('display-love').innerHTML="Oops!! "+name2+" loves you "+"9%";
+		}
+	else if((nam1.startsWith("v")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("v"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"97%";
+		}
+	else if((nam1.startsWith("v")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("v"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"77%";
+		}
+	else if((nam1.startsWith("v")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("v"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"83%";
+		}
+	//w ko laagi
+     else if (nam1.startsWith("w")&&nam2.startsWith("w")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+
+	else if((nam1.startsWith("w")&&nam2.startsWith("x"))||(nam1.startsWith("x")&&nam2.startsWith("w"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"97%";
+		}
+	else if((nam1.startsWith("w")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("w"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"77%";
+		}
+	else if((nam1.startsWith("w")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("w"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"83%";
+		}
+	//x ko laagi
+     else if (nam1.startsWith("x")&&nam2.startsWith("x")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+
+	else if((nam1.startsWith("x")&&nam2.startsWith("y"))||(nam1.startsWith("y")&&nam2.startsWith("x"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"77%";
+		}
+	else if((nam1.startsWith("x")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("x"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"83%";
+		}
+	//y ko laagi
+     else if (nam1.startsWith("y")&&nam2.startsWith("y")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"86%";
+		}
+	else if((nam1.startsWith("y")&&nam2.startsWith("z"))||(nam1.startsWith("z")&&nam2.startsWith("y"))){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"73%";
+		}
+		else if (nam1.startsWith("z")&&nam2.startsWith("z")){
+	 document.getElementById('display-love').innerHTML="Congratulations!! "+name2+" loves you "+"99%";
+		}
+}
+</script>
+</body>
+</html>
